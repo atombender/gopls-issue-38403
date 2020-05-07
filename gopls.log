@@ -1,0 +1,482 @@
+[Trace - 13:44:52.215 PM] Sending request 'initialize - (0)'.
+Params: {"processId":17122,"clientInfo":{"name":"vscode","version":"1.44.2"},"rootPath":"/Users/alex/Trash/issue-38403","rootUri":"file:///Users/alex/Trash/issue-38403","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional"},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]}},"executeCommand":{"dynamicRegistration":true},"configuration":true,"workspaceFolders":true},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]}},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true}},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}}},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true}},"window":{"workDoneProgress":true}},"initializationOptions":{},"trace":"off","workspaceFolders":[{"uri":"file:///Users/alex/Trash/issue-38403","name":"issue-38403"}]}
+
+
+[Trace - 13:44:52.226 PM] Received response 'initialize - (0)' in 10ms.
+Result: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":["."]},"hoverProvider":true,"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":true,"typeDefinitionProvider":true,"implementationProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["quickfix","source.fixAll","source.organizeImports"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"documentOnTypeFormattingProvider":{"firstTriggerCharacter":""},"renameProvider":{"prepareProvider":true},"foldingRangeProvider":true,"executeCommandProvider":{"commands":["tidy","upgrade.dependency","generate"]},"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":"workspace/didChangeWorkspaceFolders"}}},"serverInfo":{"name":"gopls","version":"Build info\n----------\ngolang.org/x/tools/gopls master\n    golang.org/x/tools/gopls@v0.0.0-20200501005904-d351ea090f9b h1:CAqIXUMd9mH3t2O1DRj2IWu0Zh75A4fWPA+YjJOmXdE=\n    github.com/BurntSushi/toml@v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=\n    github.com/sergi/go-diff@v1.1.0 h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0=\n    golang.org/x/mod@v0.2.0 h1:KU7oHjnv3XNWfa5COkzUifxZmxp1TyI7ImMXqFxLwvQ=\n    golang.org/x/sync@v0.0.0-20190911185100-cd5d95a43a6e h1:vcxGaoTs7kV8m5Np9uUNQin4BrLOthgV7252N8V+FwY=\n    golang.org/x/tools@v0.0.0-20200430221153-f26c0dd9827d h1:8emZwJTManptbFnp36i5fbhO/1vUs3rfnh5e3Th8HEQ=\n    golang.org/x/xerrors@v0.0.0-20191204190536-9bdfabe68543 h1:E7g+9GITq07hpfrRu66IVDexMakfv52eLZ2CXBWiKr4=\n    honnef.co/go/tools@v0.0.1-2020.1.3 h1:sXmLre5bzIR6ypkjXCDI3jHPssRhc8KD/Ome589sc3U=\n    mvdan.cc/xurls/v2@v2.1.0 h1:KaMb5GLhlcSX+e+qhbRJODnUUBvlw01jt4yrjFIHAuA=\n\nGo info\n-------\ngo version go1.14 darwin/amd64\n\n"}}
+
+
+[Trace - 13:44:52.227 PM] Sending notification 'initialized'.
+Params: {}
+
+
+[Trace - 13:44:52.227 PM] Received request 'client/registerCapability - (1)'.
+Params: {"registrations":[{"id":"workspace/didChangeConfiguration","method":"workspace/didChangeConfiguration"},{"id":"workspace/didChangeWorkspaceFolders","method":"workspace/didChangeWorkspaceFolders"},{"id":"workspace/didChangeWatchedFiles","method":"workspace/didChangeWatchedFiles","registerOptions":{"watchers":[{"globPattern":"**/*.go","kind":7}]}}]}
+
+
+[Trace - 13:44:52.227 PM] Sending notification 'textDocument/didOpen'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","languageId":"go","version":1,"text":"package mypkg\n\nfunc One() {\n\turl := Two()\n}\n"}}
+
+
+[Trace - 13:44:52.227 PM] Sending notification 'textDocument/didOpen'.
+Params: {"textDocument":{"uri":"untitled:Untitled-1","languageId":"go","version":1,"text":"url := Two()\nThree(url)\n"}}
+
+
+[Trace - 13:44:52.227 PM] Sending notification 'textDocument/didOpen'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go","languageId":"go","version":1,"text":"package mypkg\n\nimport (\n\tnet_url \"net/url\"\n)\n\nfunc Two() *net_url.URL {\n\tvar url net_url.URL\n\turl.Scheme = \"https\"\n\turl.Host = \"example.com\"\n\treturn &url\n}\n"}}
+
+
+[Trace - 13:44:52.229 PM] Sending response 'client/registerCapability - (1)' in 2ms.
+Result:
+
+
+[Trace - 13:44:52.233 PM] Sending request 'textDocument/documentSymbol - (1)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:44:52.234 PM] Sending request 'textDocument/codeAction - (2)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"},"range":{"start":{"line":11,"character":0},"end":{"line":11,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:44:52.234 PM] Sending request 'textDocument/documentLink - (3)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:44:52.239 PM] Received request 'workspace/configuration - (2)'.
+Params: {"items":[{"scopeUri":"file:///Users/alex/Trash/issue-38403","section":"gopls"},{"scopeUri":"file:///Users/alex/Trash/issue-38403","section":"gopls-issue-38403"}]}
+
+
+[Trace - 13:44:52.239 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2020/05/07 13:44:52 \n\tmessage=\"Build info\\n----------\\ngolang.org/x/tools/gopls master\\n    golang.org/x/tools/gopls@v0.0.0-20200501005904-d351ea090f9b h1:CAqIXUMd9mH3t2O1DRj2IWu0Zh75A4fWPA+YjJOmXdE=\\n    github.com/BurntSushi/toml@v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=\\n    github.com/sergi/go-diff@v1.1.0 h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0=\\n    golang.org/x/mod@v0.2.0 h1:KU7oHjnv3XNWfa5COkzUifxZmxp1TyI7ImMXqFxLwvQ=\\n    golang.org/x/sync@v0.0.0-20190911185100-cd5d95a43a6e h1:vcxGaoTs7kV8m5Np9uUNQin4BrLOthgV7252N8V+FwY=\\n    golang.org/x/tools@v0.0.0-20200430221153-f26c0dd9827d h1:8emZwJTManptbFnp36i5fbhO/1vUs3rfnh5e3Th8HEQ=\\n    golang.org/x/xerrors@v0.0.0-20191204190536-9bdfabe68543 h1:E7g+9GITq07hpfrRu66IVDexMakfv52eLZ2CXBWiKr4=\\n    honnef.co/go/tools@v0.0.1-2020.1.3 h1:sXmLre5bzIR6ypkjXCDI3jHPssRhc8KD/Ome589sc3U=\\n    mvdan.cc/xurls/v2@v2.1.0 h1:KaMb5GLhlcSX+e+qhbRJODnUUBvlw01jt4yrjFIHAuA=\\n\\nGo info\\n-------\\ngo version go1.14 darwin/amd64\\n\\n\""}
+
+
+[Trace - 13:44:52.243 PM] Sending response 'workspace/configuration - (2)' in 4ms.
+Result: [{"usePlaceholders":false,"staticcheck":false},null]
+
+
+[Info  - 1:44:52 PM] 2020/05/07 13:44:52
+	message="Build info\n----------\ngolang.org/x/tools/gopls master\n    golang.org/x/tools/gopls@v0.0.0-20200501005904-d351ea090f9b h1:CAqIXUMd9mH3t2O1DRj2IWu0Zh75A4fWPA+YjJOmXdE=\n    github.com/BurntSushi/toml@v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=\n    github.com/sergi/go-diff@v1.1.0 h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0=\n    golang.org/x/mod@v0.2.0 h1:KU7oHjnv3XNWfa5COkzUifxZmxp1TyI7ImMXqFxLwvQ=\n    golang.org/x/sync@v0.0.0-20190911185100-cd5d95a43a6e h1:vcxGaoTs7kV8m5Np9uUNQin4BrLOthgV7252N8V+FwY=\n    golang.org/x/tools@v0.0.0-20200430221153-f26c0dd9827d h1:8emZwJTManptbFnp36i5fbhO/1vUs3rfnh5e3Th8HEQ=\n    golang.org/x/xerrors@v0.0.0-20191204190536-9bdfabe68543 h1:E7g+9GITq07hpfrRu66IVDexMakfv52eLZ2CXBWiKr4=\n    honnef.co/go/tools@v0.0.1-2020.1.3 h1:sXmLre5bzIR6ypkjXCDI3jHPssRhc8KD/Ome589sc3U=\n    mvdan.cc/xurls/v2@v2.1.0 h1:KaMb5GLhlcSX+e+qhbRJODnUUBvlw01jt4yrjFIHAuA=\n\nGo info\n-------\ngo version go1.14 darwin/amd64\n\n"
+[Trace - 13:44:52.487 PM] Sending request 'textDocument/codeLens - (4)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:44:52.515 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2020/05/07 13:44:52 \n\tmessage=\"go env for /Users/alex/Trash/issue-38403\\n(valid build configuration = true)\\n(build flags: [-modfile=/var/folders/qs/wpmg19r12_9_nz7pvvs2_82r0000gn/T/go.issue-38403.928311483.mod])\\nGO111MODULE=\\\"\\\"\\nGOARCH=\\\"amd64\\\"\\nGOBIN=\\\"\\\"\\nGOCACHE=\\\"/Users/alex/Library/Caches/go-build\\\"\\nGOENV=\\\"/Users/alex/Library/Application Support/go/env\\\"\\nGOEXE=\\\"\\\"\\nGOFLAGS=\\\"\\\"\\nGOHOSTARCH=\\\"amd64\\\"\\nGOHOSTOS=\\\"darwin\\\"\\nGOINSECURE=\\\"\\\"\\nGONOPROXY=\\\"github.com/t11e/*,github.com/sanity-io/gradient\\\"\\nGONOSUMDB=\\\"github.com/t11e/*,github.com/sanity-io/gradient\\\"\\nGOOS=\\\"darwin\\\"\\nGOPATH=\\\"/Users/alex/.go\\\"\\nGOPRIVATE=\\\"github.com/t11e/*,github.com/sanity-io/gradient\\\"\\nGOPROXY=\\\"https://proxy.golang.org,direct\\\"\\nGOROOT=\\\"/usr/local/opt/go/libexec\\\"\\nGOSUMDB=\\\"sum.golang.org\\\"\\nGOTMPDIR=\\\"\\\"\\nGOTOOLDIR=\\\"/usr/local/opt/go/libexec/pkg/tool/darwin_amd64\\\"\\nGCCGO=\\\"gccgo\\\"\\nAR=\\\"ar\\\"\\nCC=\\\"clang\\\"\\nCXX=\\\"clang++\\\"\\nCGO_ENABLED=\\\"1\\\"\\nGOMOD=\\\"/Users/alex/Trash/issue-38403/go.mod\\\"\\nCGO_CFLAGS=\\\"-g -O2\\\"\\nCGO_CPPFLAGS=\\\"\\\"\\nCGO_CXXFLAGS=\\\"-g -O2\\\"\\nCGO_FFLAGS=\\\"-g -O2\\\"\\nCGO_LDFLAGS=\\\"-g -O2\\\"\\nPKG_CONFIG=\\\"pkg-config\\\"\\nGOGCCFLAGS=\\\"-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/qs/wpmg19r12_9_nz7pvvs2_82r0000gn/T/go-build182201225=/tmp/go-build -gno-record-gcc-switches -fno-common\\\"\\n\""}
+
+
+[Info  - 1:44:52 PM] 2020/05/07 13:44:52
+	message="go env for /Users/alex/Trash/issue-38403\n(valid build configuration = true)\n(build flags: [-modfile=/var/folders/qs/wpmg19r12_9_nz7pvvs2_82r0000gn/T/go.issue-38403.928311483.mod])\nGO111MODULE=\"\"\nGOARCH=\"amd64\"\nGOBIN=\"\"\nGOCACHE=\"/Users/alex/Library/Caches/go-build\"\nGOENV=\"/Users/alex/Library/Application Support/go/env\"\nGOEXE=\"\"\nGOFLAGS=\"\"\nGOHOSTARCH=\"amd64\"\nGOHOSTOS=\"darwin\"\nGOINSECURE=\"\"\nGONOPROXY=\"github.com/t11e/*,github.com/sanity-io/gradient\"\nGONOSUMDB=\"github.com/t11e/*,github.com/sanity-io/gradient\"\nGOOS=\"darwin\"\nGOPATH=\"/Users/alex/.go\"\nGOPRIVATE=\"github.com/t11e/*,github.com/sanity-io/gradient\"\nGOPROXY=\"https://proxy.golang.org,direct\"\nGOROOT=\"/usr/local/opt/go/libexec\"\nGOSUMDB=\"sum.golang.org\"\nGOTMPDIR=\"\"\nGOTOOLDIR=\"/usr/local/opt/go/libexec/pkg/tool/darwin_amd64\"\nGCCGO=\"gccgo\"\nAR=\"ar\"\nCC=\"clang\"\nCXX=\"clang++\"\nCGO_ENABLED=\"1\"\nGOMOD=\"/Users/alex/Trash/issue-38403/go.mod\"\nCGO_CFLAGS=\"-g -O2\"\nCGO_CPPFLAGS=\"\"\nCGO_CXXFLAGS=\"-g -O2\"\nCGO_FFLAGS=\"-g -O2\"\nCGO_LDFLAGS=\"-g -O2\"\nPKG_CONFIG=\"pkg-config\"\nGOGCCFLAGS=\"-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/qs/wpmg19r12_9_nz7pvvs2_82r0000gn/T/go-build182201225=/tmp/go-build -gno-record-gcc-switches -fno-common\"\n"
+[Trace - 13:44:52.654 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2020/05/07 13:44:52 \n\tmessage=\"go/packages.Load\"\n\tsnapshot=0\n\tdirectory=/Users/alex/Trash/issue-38403\n\tquery=[./... builtin]\n\tpackages=2"}
+
+
+[Info  - 1:44:52 PM] 2020/05/07 13:44:52
+	message="go/packages.Load"
+	snapshot=0
+	directory=/Users/alex/Trash/issue-38403
+	query=[./... builtin]
+	packages=2
+[Trace - 13:44:52.737 PM] Received response 'textDocument/documentSymbol - (1)' in 503ms.
+Result: [{"name":"Two","detail":"()","kind":12,"range":{"start":{"line":6,"character":0},"end":{"line":11,"character":1}},"selectionRange":{"start":{"line":6,"character":5},"end":{"line":6,"character":8}}}]
+
+
+[Trace - 13:44:52.776 PM] Received response 'textDocument/codeAction - (2)' in 542ms.
+Result: null
+
+
+[Trace - 13:44:52.777 PM] Received response 'textDocument/documentLink - (3)' in 542ms.
+Result: [{"range":{"start":{"line":3,"character":10},"end":{"line":3,"character":17}},"target":"https://pkg.go.dev/net/url"},{"range":{"start":{"line":9,"character":13},"end":{"line":9,"character":24}},"target":"https://example.com"}]
+
+
+[Trace - 13:44:52.777 PM] Received response 'textDocument/codeLens - (4)' in 290ms.
+Result: null
+
+
+[Trace - 13:44:52.819 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","diagnostics":[{"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":4}},"severity":1,"source":"compiler","message":"url declared but not used"}]}
+
+
+[Trace - 13:44:53.501 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go","version":2},"contentChanges":[{"range":{"start":{"line":7,"character":0},"end":{"line":7,"character":1}},"rangeLength":1,"text":"\n\t"}]}
+
+
+[Trace - 13:44:53.582 PM] Sending request 'textDocument/codeAction - (5)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"},"range":{"start":{"line":0,"character":0},"end":{"line":13,"character":0}},"context":{"diagnostics":[],"only":["source.organizeImports"]}}
+
+
+[Trace - 13:44:53.582 PM] Received response 'textDocument/codeAction - (5)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:53.585 PM] Sending request 'textDocument/formatting - (6)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"},"options":{"tabSize":2,"insertSpaces":false}}
+
+
+[Trace - 13:44:53.585 PM] Received response 'textDocument/formatting - (6)' in 0ms.
+Result: []
+
+
+[Trace - 13:44:53.606 PM] Sending notification 'textDocument/didSave'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go","version":2}}
+
+
+[Trace - 13:44:53.742 PM] Sending request 'textDocument/codeLens - (7)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:44:53.742 PM] Received response 'textDocument/codeLens - (7)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:53.904 PM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {"changes":[{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go","type":2}]}
+
+
+[Trace - 13:44:54.150 PM] Sending request 'textDocument/documentSymbol - (8)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:44:54.151 PM] Received response 'textDocument/documentSymbol - (8)' in 0ms.
+Result: [{"name":"Two","detail":"()","kind":12,"range":{"start":{"line":6,"character":0},"end":{"line":12,"character":1}},"selectionRange":{"start":{"line":6,"character":5},"end":{"line":6,"character":8}}}]
+
+
+[Trace - 13:44:54.455 PM] Sending notification 'textDocument/didOpen'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go","languageId":"go","version":1,"text":"package mypkg\n\nimport (\n\t\"log\"\n\t\"net/url\"\n)\n\nfunc Three(u *url.URL) {\n\tlog.Printf(\"url: %s\", u.String())\n}\n"}}
+
+
+[Trace - 13:44:54.456 PM] Sending request 'textDocument/documentLink - (9)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"}}
+
+
+[Trace - 13:44:54.456 PM] Sending request 'textDocument/codeAction - (10)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"},"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:44:54.457 PM] Received response 'textDocument/documentLink - (9)' in 1ms.
+Result: [{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":5}},"target":"https://pkg.go.dev/log"},{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":9}},"target":"https://pkg.go.dev/net/url"}]
+
+
+[Trace - 13:44:54.457 PM] Received response 'textDocument/codeAction - (10)' in 1ms.
+Result: null
+
+
+[Trace - 13:44:54.460 PM] Sending request 'textDocument/documentSymbol - (11)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"}}
+
+
+[Trace - 13:44:54.460 PM] Received response 'textDocument/documentSymbol - (11)' in 0ms.
+Result: [{"name":"Three","detail":"(u *url.URL)","kind":12,"range":{"start":{"line":7,"character":0},"end":{"line":9,"character":1}},"selectionRange":{"start":{"line":7,"character":5},"end":{"line":7,"character":10}}}]
+
+
+[Trace - 13:44:54.697 PM] Sending request 'textDocument/codeLens - (12)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"}}
+
+
+[Trace - 13:44:54.698 PM] Received response 'textDocument/codeLens - (12)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:54.699 PM] Sending request 'textDocument/codeAction - (13)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"},"range":{"start":{"line":7,"character":24},"end":{"line":7,"character":24}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:44:54.699 PM] Received response 'textDocument/codeAction - (13)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:55.875 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go","version":2},"contentChanges":[{"range":{"start":{"line":7,"character":24},"end":{"line":7,"character":24}},"rangeLength":0,"text":"\n\t"}]}
+
+
+[Trace - 13:44:55.922 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go","version":3},"contentChanges":[{"range":{"start":{"line":8,"character":0},"end":{"line":8,"character":1}},"rangeLength":1,"text":""}]}
+
+
+[Trace - 13:44:55.922 PM] Sending request 'textDocument/codeAction - (14)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"},"range":{"start":{"line":0,"character":0},"end":{"line":11,"character":0}},"context":{"diagnostics":[],"only":["source.organizeImports"]}}
+
+
+[Trace - 13:44:55.923 PM] Received response 'textDocument/codeAction - (14)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:55.926 PM] Sending request 'textDocument/formatting - (15)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"},"options":{"tabSize":2,"insertSpaces":false}}
+
+
+[Trace - 13:44:55.927 PM] Received response 'textDocument/formatting - (15)' in 0ms.
+Result: []
+
+
+[Trace - 13:44:55.950 PM] Sending notification 'textDocument/didSave'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go","version":3}}
+
+
+[Trace - 13:44:56.172 PM] Sending request 'textDocument/codeLens - (16)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"}}
+
+
+[Trace - 13:44:56.172 PM] Received response 'textDocument/codeLens - (16)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:56.276 PM] Sending request 'textDocument/documentSymbol - (17)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"}}
+
+
+[Trace - 13:44:56.277 PM] Received response 'textDocument/documentSymbol - (17)' in 0ms.
+Result: [{"name":"Three","detail":"(u *url.URL)","kind":12,"range":{"start":{"line":7,"character":0},"end":{"line":10,"character":1}},"selectionRange":{"start":{"line":7,"character":5},"end":{"line":7,"character":10}}}]
+
+
+[Trace - 13:44:56.348 PM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {"changes":[{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go","type":2}]}
+
+
+[Trace - 13:44:56.872 PM] Sending request 'textDocument/documentLink - (18)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/three.go"}}
+
+
+[Trace - 13:44:56.872 PM] Received response 'textDocument/documentLink - (18)' in 0ms.
+Result: [{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":5}},"target":"https://pkg.go.dev/log"},{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":9}},"target":"https://pkg.go.dev/net/url"}]
+
+
+[Trace - 13:44:56.942 PM] Sending request 'textDocument/documentLink - (19)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:56.942 PM] Received response 'textDocument/documentLink - (19)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:56.942 PM] Sending request 'textDocument/codeAction - (20)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:44:56.942 PM] Received response 'textDocument/codeAction - (20)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:56.944 PM] Sending request 'textDocument/documentSymbol - (21)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:56.944 PM] Received response 'textDocument/documentSymbol - (21)' in 0ms.
+Result: [{"name":"One","detail":"()","kind":12,"range":{"start":{"line":2,"character":0},"end":{"line":4,"character":1}},"selectionRange":{"start":{"line":2,"character":5},"end":{"line":2,"character":8}}}]
+
+
+[Trace - 13:44:57.186 PM] Sending request 'textDocument/codeLens - (22)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:57.186 PM] Received response 'textDocument/codeLens - (22)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:57.187 PM] Sending request 'textDocument/codeAction - (23)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:44:57.188 PM] Received response 'textDocument/codeAction - (23)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:58.108 PM] Sending request 'textDocument/codeAction - (24)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"range":{"start":{"line":3,"character":13},"end":{"line":3,"character":13}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:44:58.108 PM] Received response 'textDocument/codeAction - (24)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:58.191 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":2},"contentChanges":[{"range":{"start":{"line":3,"character":13},"end":{"line":3,"character":13}},"rangeLength":0,"text":"\n\t"}]}
+
+
+[Trace - 13:44:58.435 PM] Sending request 'textDocument/codeLens - (25)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:58.435 PM] Received response 'textDocument/codeLens - (25)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:58.535 PM] Sending request 'textDocument/documentSymbol - (26)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:58.536 PM] Received response 'textDocument/documentSymbol - (26)' in 0ms.
+Result: [{"name":"One","detail":"()","kind":12,"range":{"start":{"line":2,"character":0},"end":{"line":5,"character":1}},"selectionRange":{"start":{"line":2,"character":5},"end":{"line":2,"character":8}}}]
+
+
+[Trace - 13:44:58.732 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":3},"contentChanges":[{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":1}},"rangeLength":0,"text":"T"}]}
+
+
+[Trace - 13:44:58.733 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":3,"diagnostics":[{"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":4}},"severity":1,"source":"compiler","message":"url declared but not used"},{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"severity":1,"source":"compiler","message":"undeclared name: T"}]}
+
+
+[Trace - 13:44:58.822 PM] Sending request 'textDocument/completion - (27)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"position":{"line":4,"character":2},"context":{"triggerKind":1}}
+
+
+[Trace - 13:44:58.888 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":4},"contentChanges":[{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":2}},"rangeLength":0,"text":"h"}]}
+
+
+[Trace - 13:44:58.923 PM] Received response 'textDocument/completion - (27)' in 100ms.
+Result: {"isIncomplete":true,"items":[{"label":"type","kind":14,"preselect":true,"sortText":"00000","filterText":"type","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"newText":"type"}},{"label":"true","kind":21,"sortText":"00001","filterText":"type","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"newText":"true"}},{"label":"Three","kind":3,"detail":"func(u *url.URL)","sortText":"00002","filterText":"type","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"newText":"Three(${1:})"}},{"label":"Two","kind":3,"detail":"func() *url.URL","sortText":"00003","filterText":"type","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"newText":"Two()"}},{"label":"Two().Opaque","kind":5,"detail":"string","documentation":"encoded opaque data\n","sortText":"00004","filterText":"type","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"newText":"Two().Opaque"}},{"label":"Two().Scheme","kind":5,"detail":"string","sortText":"00005","filterText":"type","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"newText":"Two().Scheme"}},{"label":"Two().User","kind":5,"detail":"*url.Userinfo","documentation":"username and password information\n","sortText":"00006","filterText":"type","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"newText":"Two().User"}}]}
+
+
+[Trace - 13:44:58.924 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go","version":2,"diagnostics":[{"range":{"start":{"line":6,"character":12},"end":{"line":6,"character":23}},"severity":1,"source":"compiler","message":"undeclared name: url"}]}
+
+
+[Trace - 13:44:58.924 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":4,"diagnostics":[{"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":4}},"severity":1,"source":"compiler","message":"url declared but not used"},{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":3}},"severity":1,"source":"compiler","message":"undeclared name: Th"}]}
+
+
+[Trace - 13:44:58.927 PM] Sending request 'textDocument/completion - (28)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"position":{"line":4,"character":3},"context":{"triggerKind":3}}
+
+
+[Trace - 13:44:58.955 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":5},"contentChanges":[{"range":{"start":{"line":4,"character":3},"end":{"line":4,"character":3}},"rangeLength":0,"text":"r"}]}
+
+
+[Trace - 13:44:59.028 PM] Received response 'textDocument/completion - (28)' in 100ms.
+Result: {"isIncomplete":true,"items":[{"label":"Three","kind":3,"detail":"func(u *url.URL)","preselect":true,"sortText":"00000","filterText":"Three","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":3}},"newText":"Three(${1:})"}}]}
+
+
+[Trace - 13:44:59.029 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":5,"diagnostics":[{"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":4}},"severity":1,"source":"compiler","message":"url declared but not used"},{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":4}},"severity":1,"source":"compiler","message":"undeclared name: Thr"}]}
+
+
+[Trace - 13:44:59.030 PM] Sending request 'textDocument/completion - (29)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"position":{"line":4,"character":4},"context":{"triggerKind":3}}
+
+
+[Trace - 13:44:59.098 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":6},"contentChanges":[{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":4}},"rangeLength":0,"text":"e"}]}
+
+
+[Trace - 13:44:59.131 PM] Received response 'textDocument/completion - (29)' in 100ms.
+Result: {"isIncomplete":true,"items":[{"label":"Three","kind":3,"detail":"func(u *url.URL)","preselect":true,"sortText":"00000","filterText":"Three","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":4}},"newText":"Three(${1:})"}}]}
+
+
+[Trace - 13:44:59.132 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":6,"diagnostics":[{"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":4}},"severity":1,"source":"compiler","message":"url declared but not used"},{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":5}},"severity":1,"source":"compiler","message":"undeclared name: Thre"}]}
+
+
+[Trace - 13:44:59.133 PM] Sending request 'textDocument/completion - (30)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"position":{"line":4,"character":5},"context":{"triggerKind":3}}
+
+
+[Trace - 13:44:59.192 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":7},"contentChanges":[{"range":{"start":{"line":4,"character":5},"end":{"line":4,"character":5}},"rangeLength":0,"text":"e"}]}
+
+
+[Trace - 13:44:59.192 PM] Sending request 'textDocument/documentLink - (31)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:59.233 PM] Received response 'textDocument/completion - (30)' in 100ms.
+Result: {"isIncomplete":true,"items":[{"label":"Three","kind":3,"detail":"func(u *url.URL)","preselect":true,"sortText":"00000","filterText":"Three","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":5}},"newText":"Three(${1:})"}}]}
+
+
+[Trace - 13:44:59.234 PM] Received response 'textDocument/documentLink - (31)' in 41ms.
+Result: null
+
+
+[Trace - 13:44:59.234 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go","version":7,"diagnostics":[{"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":4}},"severity":1,"source":"compiler","message":"url declared but not used"},{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":6}},"severity":1,"source":"compiler","message":"Three (value of type func(u *url.URL)) is not used"}]}
+
+
+[Trace - 13:44:59.235 PM] Sending request 'textDocument/completion - (32)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"position":{"line":4,"character":6},"context":{"triggerKind":3}}
+
+
+[Trace - 13:44:59.335 PM] Received response 'textDocument/completion - (32)' in 100ms.
+Result: {"isIncomplete":true,"items":[{"label":"Three","kind":3,"detail":"func(u *url.URL)","preselect":true,"sortText":"00000","filterText":"Three","insertTextFormat":2,"textEdit":{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":6}},"newText":"Three(${1:})"}}]}
+
+
+[Trace - 13:44:59.436 PM] Sending request 'textDocument/codeLens - (33)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:59.436 PM] Received response 'textDocument/codeLens - (33)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:59.491 PM] Sending request 'textDocument/codeAction - (34)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"},"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":6}},"context":{"diagnostics":[{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":6}},"message":"Three (value of type func(u *url.URL)) is not used","severity":1,"source":"compiler"}]}}
+
+
+[Trace - 13:44:59.491 PM] Received response 'textDocument/codeAction - (34)' in 0ms.
+Result: null
+
+
+[Trace - 13:44:59.536 PM] Sending request 'textDocument/documentSymbol - (35)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/one.go"}}
+
+
+[Trace - 13:44:59.536 PM] Received response 'textDocument/documentSymbol - (35)' in 0ms.
+Result: [{"name":"One","detail":"()","kind":12,"range":{"start":{"line":2,"character":0},"end":{"line":5,"character":1}},"selectionRange":{"start":{"line":2,"character":5},"end":{"line":2,"character":8}}}]
+
+
+[Trace - 13:45:00.257 PM] Sending request 'textDocument/documentLink - (36)'.
+Params: {"textDocument":{"uri":"untitled:Untitled-1"}}
+
+
+[Trace - 13:45:00.257 PM] Sending request 'textDocument/codeAction - (37)'.
+Params: {"textDocument":{"uri":"untitled:Untitled-1"},"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:45:00.258 PM] Received response 'textDocument/documentLink - (36)' in 0ms.
+Result: null
+
+
+[Trace - 13:45:00.258 PM] Received response 'textDocument/codeAction - (37)' in 0ms.
+Result: null
+
+
+[Trace - 13:45:00.407 PM] Sending request 'textDocument/documentLink - (38)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:45:00.408 PM] Sending request 'textDocument/codeAction - (39)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"},"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 13:45:00.408 PM] Received response 'textDocument/documentLink - (38)' in 0ms.
+Result: [{"range":{"start":{"line":3,"character":10},"end":{"line":3,"character":17}},"target":"https://pkg.go.dev/net/url"},{"range":{"start":{"line":10,"character":13},"end":{"line":10,"character":24}},"target":"https://example.com"}]
+
+
+[Trace - 13:45:00.409 PM] Received response 'textDocument/codeAction - (39)' in 0ms.
+Result: null
+
+
+[Trace - 13:45:00.410 PM] Sending request 'textDocument/documentSymbol - (40)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:45:00.411 PM] Received response 'textDocument/documentSymbol - (40)' in 0ms.
+Result: [{"name":"Two","detail":"()","kind":12,"range":{"start":{"line":6,"character":0},"end":{"line":12,"character":1}},"selectionRange":{"start":{"line":6,"character":5},"end":{"line":6,"character":8}}}]
+
+
+[Trace - 13:45:00.643 PM] Sending request 'textDocument/codeLens - (41)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"}}
+
+
+[Trace - 13:45:00.643 PM] Received response 'textDocument/codeLens - (41)' in 0ms.
+Result: null
+
+
+[Trace - 13:45:00.973 PM] Sending request 'textDocument/codeAction - (42)'.
+Params: {"textDocument":{"uri":"file:///Users/alex/Trash/issue-38403/mypkg/two.go"},"range":{"start":{"line":6,"character":12},"end":{"line":6,"character":12}},"context":{"diagnostics":[{"range":{"start":{"line":6,"character":12},"end":{"line":6,"character":23}},"message":"undeclared name: url","severity":1,"source":"compiler"}]}}
+
+
+[Trace - 13:45:00.974 PM] Received response 'textDocument/codeAction - (42)' in 0ms.
+Result: null
+
+
